@@ -1,0 +1,31 @@
+.logo-anim {
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+
+    /* 그레이 블러 */
+    -webkit-filter: grayscale(60%) blur(0);
+    filter: grayscale(60%) blur(0);
+
+    /* 크기 */
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
+    /* 속도 */
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+    border-radius: 12px;
+}
+
+.logo-anim:hover {
+    opacity: 0.8;
+
+    /* 그레이 블러 */
+    -webkit-filter: grayscale(0) blur(0.5px);
+    filter: grayscale(0) blur(0.5px);
+    /* 크기 */
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
