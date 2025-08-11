@@ -2,6 +2,7 @@
     width: 100px;
     height: 100px;
     opacity: 0.5;
+    background-color: #00000030;
 
     /* 그레이 블러 */
     -webkit-filter: grayscale(60%) blur(0);
@@ -14,7 +15,9 @@
     /* 속도 */
     -webkit-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
-    border-radius: 12px;
+    border-radius: 100px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
 }
 
 .logo-anim:hover {
@@ -27,5 +30,5 @@
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+    box-shadow: 0 0px 25px rgba(0, 0, 0, .5);
 }
